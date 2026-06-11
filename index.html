@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Social HR Software – HR & Payroll Insights</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9776;</span>
+        <span class="logo-text">Social <strong>HR</strong> Software</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Blog</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="hero-eyebrow">Insights & Best Practices</span>
+      <h1 class="hero-title">HR &amp; Payroll<br/>Knowledge Hub</h1>
+      <p class="hero-sub">Expert articles on HR software, payroll systems, workforce management, and digital transformation — written for HR professionals and business leaders.</p>
+      <div class="hero-tags">
+        <span class="tag tag-blue">HR Software</span>
+        <span class="tag tag-teal">Payroll Solutions</span>
+        <span class="tag tag-purple">Compliance</span>
+        <span class="tag tag-amber">Workforce Tech</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED POST -->
+  <section class="section-featured">
+    <div class="container">
+      <div class="featured-card">
+        <div class="featured-meta">
+          <span class="badge badge-blue">Featured</span>
+          <span class="category-dot"></span>
+          <span class="post-date">June 10, 2025</span>
+        </div>
+        <h2 class="featured-title">
+          <a href="post.html">The Ultimate Guide to Choosing HR Software in 2025: What Every Business Needs to Know</a>
+        </h2>
+        <p class="featured-excerpt">From small startups to enterprise giants, selecting the right HR platform can transform how your organization manages talent, automates payroll, and stays compliant. We break down the top features, pitfalls to avoid, and vendor comparisons.</p>
+        <div class="featured-footer">
+          <div class="author-info">
+            <div class="author-avatar">SR</div>
+            <div>
+              <span class="author-name">Sarah Rahman</span>
+              <span class="author-role">HR Technology Analyst</span>
+            </div>
+          </div>
+          <a href="post.html" class="read-more-btn">Read Article →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG GRID -->
+  <section class="section-blog">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="filter-tabs">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="hr">HR Software</button>
+          <button class="filter-btn" data-filter="payroll">Payroll</button>
+        </div>
+      </div>
+
+      <div class="blog-grid" id="blogGrid">
+
+        <article class="blog-card" data-category="payroll">
+          <div class="card-category-bar bar-teal"></div>
+          <div class="card-body">
+            <span class="card-tag tag-teal">Payroll Software</span>
+            <h3 class="card-title"><a href="post.html">Automated Payroll: Reducing Errors and Saving 20+ Hours Per Month</a></h3>
+            <p class="card-excerpt">Manual payroll is error-prone and time-consuming. Modern payroll automation tools promise significant time savings — but which features actually deliver?</p>
+            <div class="card-footer">
+              <div class="author-mini">
+                <div class="author-avatar-sm">JK</div>
+                <span>James Khan</span>
+              </div>
+              <span class="card-date">June 5, 2025</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="hr">
+          <div class="card-category-bar bar-blue"></div>
+          <div class="card-body">
+            <span class="card-tag tag-blue">HR Software</span>
+            <h3 class="card-title"><a href="post.html">HRIS vs HRMS vs HCM: Understanding the Differences</a></h3>
+            <p class="card-excerpt">The alphabet soup of HR technology can be confusing. Here's a clear breakdown of what each system does, and which one is right for your organization size.</p>
+            <div class="card-footer">
+              <div class="author-mini">
+                <div class="author-avatar-sm">NA</div>
+                <span>Nadia Ahmed</span>
+              </div>
+              <span class="card-date">May 28, 2025</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="payroll">
+          <div class="card-category-bar bar-teal"></div>
+          <div class="card-body">
+            <span class="card-tag tag-teal">Payroll Software</span>
+            <h3 class="card-title"><a href="post.html">Payroll Compliance in 2025: New Regulations Every HR Team Must Know</a></h3>
+            <p class="card-excerpt">Tax codes, labour laws, and compliance requirements are evolving fast. We cover the latest updates and how modern payroll software keeps you audit-ready.</p>
+            <div class="card-footer">
+              <div class="author-mini">
+                <div class="author-avatar-sm">MR</div>
+                <span>Michael Ross</span>
+              </div>
+              <span class="card-date">May 20, 2025</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="hr">
+          <div class="card-category-bar bar-blue"></div>
+          <div class="card-body">
+            <span class="card-tag tag-blue">HR Software</span>
+            <h3 class="card-title"><a href="post.html">Top 7 Employee Self-Service Portal Features That Boost Engagement</a></h3>
+            <p class="card-excerpt">ESS portals have become a cornerstone of modern HR. Discover which features drive real employee satisfaction and reduce HR ticket volume by up to 40%.</p>
+            <div class="card-footer">
+              <div class="author-mini">
+                <div class="author-avatar-sm">LP</div>
+                <span>Laura Patel</span>
+              </div>
+              <span class="card-date">May 14, 2025</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="payroll">
+          <div class="card-category-bar bar-teal"></div>
+          <div class="card-body">
+            <span class="card-tag tag-teal">Payroll Software</span>
+            <h3 class="card-title"><a href="post.html">Cloud Payroll vs On-Premise: Which Is Better for Mid-Sized Companies?</a></h3>
+            <p class="card-excerpt">Cost, security, scalability — we compare cloud and on-premise payroll deployments so you can make an informed decision for your business.</p>
+            <div class="card-footer">
+              <div class="author-mini">
+                <div class="author-avatar-sm">TN</div>
+                <span>Tom Nguyen</span>
+              </div>
+              <span class="card-date">May 7, 2025</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card" data-category="hr">
+          <div class="card-category-bar bar-blue"></div>
+          <div class="card-body">
+            <span class="card-tag tag-blue">HR Software</span>
+            <h3 class="card-title"><a href="post.html">Integrating HR Software with Your ERP: A Step-by-Step Guide</a></h3>
+            <p class="card-excerpt">Siloed systems cost productivity. Learn how to seamlessly integrate your HR platform with SAP, Oracle, or Microsoft Dynamics for real-time data flow.</p>
+            <div class="card-footer">
+              <div class="author-mini">
+                <div class="author-avatar-sm">AI</div>
+                <span>Aisha Ibrahim</span>
+              </div>
+              <span class="card-date">April 30, 2025</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="load-more-wrap">
+        <button class="load-more-btn" id="loadMoreBtn">Load More Articles</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="section-newsletter">
+    <div class="container newsletter-inner">
+      <div>
+        <h2 class="newsletter-title">Stay ahead of HR & Payroll trends</h2>
+        <p class="newsletter-sub">Get expert articles delivered to your inbox every two weeks. No spam, unsubscribe anytime.</p>
+      </div>
+      <form class="newsletter-form" onsubmit="handleSubscribe(event)">
+        <input type="email" placeholder="Enter your work email" class="newsletter-input" required />
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">Social <strong>HR</strong> Software</span>
+        <p class="footer-tagline">Expert insights for modern HR &amp; payroll professionals.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Content</h4>
+          <a href="#">HR Software</a>
+          <a href="#">Payroll</a>
+          <a href="#">Compliance</a>
+          <a href="#">Workforce Tech</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="#">Write for Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2025 Social HR Software. All rights reserved.</span>
+        <span>Built for HR professionals worldwide.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

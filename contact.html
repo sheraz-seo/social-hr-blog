@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact – Social HR Software</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9776;</span>
+        <span class="logo-text">Social <strong>HR</strong> Software</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Blog</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="hero-eyebrow">Get in Touch</span>
+      <h1 class="page-hero-title">Contact Us</h1>
+      <p class="page-hero-sub">Have a question, article pitch, or want to collaborate? We'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Let's Talk</h2>
+          <p>Whether you're a reader with a question, an HR professional who wants to contribute an article, or a business looking to sponsor our newsletter — reach out and we'll get back to you within 24 hours.</p>
+
+          <div class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div class="contact-item-text">
+              <strong>Email</strong>
+              <span>hello@socialhr.software</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">✍</div>
+            <div class="contact-item-text">
+              <strong>Write for Us</strong>
+              <span>Pitch an article on HR or payroll tech</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📢</div>
+            <div class="contact-item-text">
+              <strong>Newsletter Partnerships</strong>
+              <span>Reach 40,000+ HR professionals</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">⏱</div>
+            <div class="contact-item-text">
+              <strong>Response Time</strong>
+              <span>Usually within 24 business hours</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <h3 style="font-size:1.2rem;font-weight:700;color:var(--gray-900);margin-bottom:1.5rem;">Send a Message</h3>
+          <form onsubmit="handleContact(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" class="form-control" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" class="form-control" placeholder="Smith" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="john@company.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" class="form-control">
+                <option value="">Select a topic...</option>
+                <option>Article Submission</option>
+                <option>Newsletter Partnership</option>
+                <option>General Question</option>
+                <option>Feedback</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" placeholder="Tell us what's on your mind..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message →</button>
+            <div class="success-msg" id="successMsg">✓ Message sent! We'll get back to you within 24 hours.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">Social <strong>HR</strong> Software</span>
+        <p class="footer-tagline">Expert insights for modern HR &amp; payroll professionals.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Content</h4>
+          <a href="#">HR Software</a>
+          <a href="#">Payroll</a>
+          <a href="#">Compliance</a>
+          <a href="#">Workforce Tech</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="#">Write for Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2025 Social HR Software. All rights reserved.</span>
+        <span>Built for HR professionals worldwide.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

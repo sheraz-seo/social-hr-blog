@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About – Social HR Software</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9776;</span>
+        <span class="logo-text">Social <strong>HR</strong> Software</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Blog</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">&#9776;</button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="hero-eyebrow">Who We Are</span>
+      <h1 class="page-hero-title">About Social HR Software</h1>
+      <p class="page-hero-sub">We're a team of HR professionals, payroll specialists, and technology writers dedicated to helping businesses make smarter software decisions.</p>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2>Our Mission</h2>
+          <p>HR and payroll software is one of the most important investments any business makes — yet the landscape is confusing, vendor-driven, and full of jargon. We exist to cut through that noise.</p>
+          <p>Social HR Software is an independent publication. We receive no sponsorships or payment from software vendors. Every article is written from the perspective of HR professionals who have actually implemented and used these systems.</p>
+          <p>Our goal is simple: help you make better decisions about the tools that power your people operations.</p>
+        </div>
+        <div>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">150+</div>
+              <div class="stat-label">Articles Published</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">40K+</div>
+              <div class="stat-label">Monthly Readers</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">12</div>
+              <div class="stat-label">Expert Contributors</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" style="background:var(--white);border-top:1px solid var(--gray-200);border-bottom:1px solid var(--gray-200);">
+    <div class="container">
+      <h2 style="font-family:var(--font-display);font-size:1.8rem;color:var(--gray-900);margin-bottom:2rem;">What We Cover</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.5rem;">
+        <div class="sidebar-card">
+          <span class="tag tag-blue" style="margin-bottom:1rem;display:inline-block;">HR Software</span>
+          <p style="font-size:14px;color:var(--gray-600);line-height:1.65;">HRIS, HCM, HRMS platforms, employee self-service, onboarding tools, and talent management systems.</p>
+        </div>
+        <div class="sidebar-card">
+          <span class="tag tag-teal" style="margin-bottom:1rem;display:inline-block;">Payroll Solutions</span>
+          <p style="font-size:14px;color:var(--gray-600);line-height:1.65;">Payroll automation, tax compliance, multi-country payroll, direct deposit, and payslip management.</p>
+        </div>
+        <div class="sidebar-card">
+          <span class="tag tag-purple" style="margin-bottom:1rem;display:inline-block;">Compliance</span>
+          <p style="font-size:14px;color:var(--gray-600);line-height:1.65;">Labour law updates, data privacy (GDPR, PDPA), audit readiness, and regulatory change management.</p>
+        </div>
+        <div class="sidebar-card">
+          <span class="tag tag-amber" style="margin-bottom:1rem;display:inline-block;">Workforce Tech</span>
+          <p style="font-size:14px;color:var(--gray-600);line-height:1.65;">AI in HR, workforce analytics, ERP integrations, and the future of digital HR transformation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-newsletter">
+    <div class="container newsletter-inner">
+      <div>
+        <h2 class="newsletter-title">Join our community of HR professionals</h2>
+        <p class="newsletter-sub">Get expert articles delivered to your inbox every two weeks.</p>
+      </div>
+      <form class="newsletter-form" onsubmit="handleSubscribe(event)">
+        <input type="email" placeholder="Enter your work email" class="newsletter-input" required />
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">Social <strong>HR</strong> Software</span>
+        <p class="footer-tagline">Expert insights for modern HR &amp; payroll professionals.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Content</h4>
+          <a href="#">HR Software</a>
+          <a href="#">Payroll</a>
+          <a href="#">Compliance</a>
+          <a href="#">Workforce Tech</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="#">Write for Us</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2025 Social HR Software. All rights reserved.</span>
+        <span>Built for HR professionals worldwide.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
